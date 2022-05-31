@@ -1,6 +1,6 @@
 import { useState } from 'react';
+import { Quote } from '../../shared';
 import { requestQuotes } from '../api';
-import { Quote } from '../types';
 
 function useRandomQuotes() {
   const [quotesData, setQuotesData] = useState<Quote[] | null>(null);

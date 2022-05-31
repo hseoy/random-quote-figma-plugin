@@ -1,4 +1,4 @@
-import { Quote } from '../types';
+import { Quote } from '../../shared';
 
 const apiUrl = 'https://type.fit/api/quotes';
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import useRandomQuotes from './hooks/useRandomQuotes';
+import { requestGenerateRandomQuoteToPlugin } from './lib/figma';
 
 const Container = styled.div`
   display: flex;
@@ -39,7 +40,7 @@ function App() {
   const generateRandomQuote = async () => {
     setIsLoading(true);
     const randomQuote = await getRandomQuote();
-    console.log(randomQuote);
+    requestGenerateRandomQuoteToPlugin(randomQuote);
     setIsLoading(false);
   };
 
