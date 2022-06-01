@@ -15,7 +15,9 @@ async function loadFonts() {
 
 function isPayload(payload: unknown): payload is PluginMessagePayload {
   return (
-    typeof payload === 'object' && 'type' in payload && 'randomQuote' in payload
+    typeof payload === 'object' &&
+    Object.prototype.hasOwnProperty.call(payload, 'type') &&
+    Object.prototype.hasOwnProperty.call(payload, 'randomQuote')
   );
 }
 
