@@ -22,3 +22,7 @@ $ yarn watch
 6. 이제 플러그인을 피그마 파일에서 사용할 수 있습니다. 아무 피그마 파일이나 선택한 후 `Plugins > Development > random-quote`를 클릭하면 아래와 같이 실행되는 동작을 확인할 수 있습니다.
 
 ![run](./images/example-plugin-run.gif)
+
+## 참고
+
+- [hseoy/figma-plugin-react-boilerplate](https://github.com/hseoy/figma-plugin-react-boilerplate)를 기반으로 개발되었습니다.
