@@ -1,8 +1,8 @@
 # Figma Plugin - Random Quote
 
-> 피그마 플러그인 튜토리얼을 주제로 쓴 글을 위한 예시 플러그인입니다.
+ 피그마 플러그인 튜토리얼을 주제로 쓴 글을 위한 예시 플러그인입니다. 텍스트 노드를 선택한 후 `Random Quote` 버튼을 클릭하면 선택한 텍스트 노드에 임의의 인용문이 삽입됩니다.
 
-텍스트 노드를 선택한 후 `Random Quote` 버튼을 클릭하면 선택한 텍스트 노드에 임의의 인용문이 삽입됩니다.
+- Blog: [우아한형제들 기술블로그: React 개발자를 위한 피그마 플러그인 개발(feat. 온보딩)](https://techblog.woowahan.com/8339/)
 
 ## Install and Start
 
